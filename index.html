@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome file -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Traveli</title>
+</head>
+
+<body>
+  <!-- loader -->
+  <div class="loading">
+    <div class="preloader">
+      <img src="assets/images/preloader.svg" alt="Preloader">
+    </div>
+  </div>
+  <!-- to up -->
+  <div class="to-up">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+  <!-- Start Main -->
+  <section class="main-section">
+    <header class="navbar-content">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/logo.svg" alt="Logo" width="150px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar">
+              <i class="fas fa-bars toggle-icon"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.svg" alt="Logo" width="150px">
+                  </a></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-evenly flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#service">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#experience">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex flex-column flex-lg-row">
+                  <button class="btn btn-normaly" type="submit">Login</button>
+                  <button class="btn btn-primary rounded-pill" type="submit">Sign up</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="row flex-wrap-reverse">
+          <div class="col-lg-5 col-md-12 col-sm-12 hero-content">
+            <div class="title mb-3">
+              Explore The World <span><img src="assets/images/title-icon.svg" alt="Title" width="20px"></span>
+            </div>
+            <h1 class="h1 hero-cont">
+              It’s a Big World Out There, Go Explore
+            </h1>
+            <p class="para p lh-lg mb-2">
+              We always make our customer happy by providing as many choices as possible
+            </p>
+            <div class="watch d-flex align-items-center">
+              <div class="plan">
+                <button class="btn btn-secondary rounded-pill">
+                  Plan a Trip <span class="p-2"><i class="fas fa-chevron-right"></i></span>
+                </button>
+              </div>
+              <div class="watch-cont ms-4 position-relative">
+                <img src="assets/images/hero-button-img.jpg" class="rounded-circle" width="80px" alt="Watch">
+                <i class="fas fa-play position-absolute top-50 translate-middle-y play"></i>
+                <span>Watch Our Story</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <img src="assets/images/hero-banner.png" class="img-fluid" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- Start our Serv -->
+  <section class="serve section-spacing" id="service">
+    <div class="container">
+      <div class="row">
+        <div class=" col-lg-3 col-sm-6 mb-3 mb-sm-0 text-center text-sm-start">
+          <div class="comp">
+            <div class="container">
+              <div class="title">
+                <h5 class="mb-2">What our serve</h5>
+                <h2 class="lh-base fw-bold fs-1">Top Values For You</h2>
+                <p>Try a variety of benefits when using our services.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="box mb-4 mb-sm-0 first mb-5">
+            <div class="serv-image">
+              <img src="assets/images/service-icon-1.svg" alt="serv-1" width="50px">
+            </div>
+            <div class="serv-title">
+              <h5>Lot Of Choices</h5>
+            </div>
+            <p class="p">Total 460+ destinations that we work with.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="box mb-4 mb-sm-0 middle mt-lg-5">
+            <div class="serv-image">
+              <img src="assets/images/service-icon-2.svg" alt="serv-2" width="50px">
+            </div>
+            <div class="serv-title">
+              <h5>Best Tour Guide</h5>
+            </div>
+            <p class="p">Our tour guide with 15+ years of experience.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="box mb-4 mb-sm-0 last">
+            <div class="serv-image">
+              <img src="assets/images/service-icon-3.svg" alt="serv-3" width="50px">
+            </div>
+            <div class="serv-title">
+              <h5>Easy Booking</h5>
+            </div>
+            <p class="p">With an easy and fast ticket purchase process.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Start Our Destination -->
+  <section class="destination" id="destination">
+    <div class="container">
+      <div class="comp text-center mb-5">
+        <div class="container">
+          <div class="title">
+            <h5 class="mb-2">Top Destination</h5>
+            <h2 class="lh-base fw-bold fs-1">Explore Top Destination</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="dest-box col-lg-4 col-md-6 col-sm-12">
+          <div class="dest-image w-100">
+            <img src="assets/images/destination-1.jpg" alt="dest1" class="img-fluid">
+          </div>
+          <h3 class="dest-title">Enjoy the Beauty of the del Pincio</h3>
+          <p>Rome, Italy</p>
+          <p><i class="fas fa-star"></i><span class="score">4.7</span> <span class="review">(11.1k Review)</span></p>
+        </div>
+        <div class="dest-box col-lg-4 col-md-6 col-sm-12">
+          <div class="dest-image w-100">
+            <img src="assets/images/destination-2.jpg" alt="dest1" class="img-fluid">
+          </div>
+          <h3 class="dest-title">Enjoy the Beauty of the Pakistan Monument</h3>
+          <p>Islamabad, Pakistan</p>
+          <p><i class="fas fa-star"></i><span class="score">4.6</span> <span class="review">(16.9k Review)</span></p>
+        </div>
+        <div class="dest-box col-lg-4 col-md-6 col-sm-12">
+          <div class="dest-image w-100">
+            <img src="assets/images/destination-3.jpg" alt="dest1" class="img-fluid">
+          </div>
+          <h3 class="dest-title">Enjoy the Beauty of the Burj Khalifa</h3>
+          <p>Skyscraper in Dubai</p>
+          <p><i class="fas fa-star"></i><span class="score">4.7</span> <span class="review">(120k Review)</span></p>
+        </div>
+        <div class="dest-box col-lg-4 col-md-6 col-sm-12">
+          <div class="dest-image w-100">
+            <img src="assets/images/destination-4.jpg" alt="dest1" class="img-fluid">
+          </div>
+          <h3 class="dest-title">Enjoy the Beauty of the Milaidhoo</h3>
+          <p>Island in the Maldives</p>
+          <p><i class="fas fa-star"></i><span class="score">4.7</span> <span class="review">(70 Review)</span></p>
+        </div>
+        <div class="dest-box col-lg-4 col-md-6 col-sm-12">
+          <div class="dest-image w-100">
+            <img src="assets/images/destination-5.jpg" alt="dest1" class="img-fluid">
+          </div>
+          <h3 class="dest-title">Enjoy the Beauty of the Ko Tao</h3>
+          <p>Island in the Gulf of Thailand</p>
+          <p><i class="fas fa-star"></i><span class="score">4.5</span> <span class="review">(985 Review)</span></p>
+        </div>
+        <div class="dest-box col-lg-4 col-md-6 col-sm-12">
+          <div class="dest-image w-100">
+            <img src="assets/images/destination-6.jpg" alt="dest1" class="img-fluid">
+          </div>
+          <h3 class="dest-title">Enjoy the Beauty of the Grand Mecidiye Mosque</h3>
+          <p>Mosque in Istanbul, Türkiye</p>
+          <p><i class="fas fa-star"></i><span class="score">4.8</span> <span class="review">(29.6k Review)</span></p>
+        </div>
+      </div>
+      <div class="all-btn text-center mt-5">
+        <button class="btn btn-primary rounded-pill">View All Destination</button>
+      </div>
+    </div>
+  </section>
+  <!-- Start  Our Experience-->
+  <section class="exp section-spacing" id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-12">
+          <div class="exp-image">
+            <img src="assets/images/experience-banner.png" class="img-fluid" alt="experience">
+          </div>
+        </div>
+        <div class="col-md-7 col-sm-12">
+          <div class="comp mb-5 mt-5 mt-sm-5 mt-md-0">
+            <div class="container">
+              <div class="title">
+                <h5 class="mb-2">Our Experience</h5>
+                <h2 class="lh-base fw-bold fs-1">With Our Experience We Will Serve You</h2>
+                <p class="para">Since we first opened we have always prioritized the convenience of our users by
+                  providing low prices and with a easy process.</p>
+              </div>
+            </div>
+          </div>
+          <div class="target">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <p class="years"><span>20</span> <br> Years Experience</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <p class="dest"><span>460+</span> <br> Destination Collaboration</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <p class="cust"><span>50K+</span> <br> Happy Cutomer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Start Gallery -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="comp mb-5 mt-5 mt-sm-5 mt-md-0 text-center">
+        <div class="container">
+          <div class="title">
+            <h5 class="mb-2">Photo Gallery</h5>
+            <h2 class="lh-base fw-bold fs-1">Photo’s From Travelers</h2>
+          </div>
+        </div>
+      </div>
+      <div class="photos d-md-grid gap-3">
+        <div class="image-box mb-3 mb-md-0">
+          <img src="assets/images/gallery-1.jpg" class="img-fluid" alt="gallery">
+        </div>
+        <div class="image-box mb-3 mb-md-0">
+          <img src="assets/images/gallery-2.jpg" class="img-fluid" alt="gallery">
+        </div>
+        <div class="image-box mb-3 mb-md-0">
+          <img src="assets/images/gallery-3.jpg" class="img-fluid" alt="gallery">
+        </div>
+        <div class="image-box mb-3 mb-md-0">
+          <img src="assets/images/gallery-4.jpg" class="img-fluid" alt="gallery">
+        </div>
+        <div class="image-box mb-3 mb-md-0">
+          <img src="assets/images/gallery-5.jpg" class="img-fluid" alt="gallery">
+        </div>
+        <div class="image-box mb-3 mb-md-0">
+          <img src="assets/images/gallery-6.jpg" class="img-fluid" alt="gallery">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start CTO -->
+  <section class="cto">
+    <div class="container">
+      <div class="comp mb-5 mt-5 mt-sm-5 mt-md-0 position-relative">
+        <div class="container d-flex flex-column align-items-center position-absolute top-50 translate-middle-y">
+          <div class="title text-center">
+            <h2 class="lh-base fw-bold fs-1">Prepare Yourself & Let’s Explore The Beauty Of The World. <span><img
+                  src="assets/images/title-icon.svg" alt="cta" width="30px"></span></h2>
+            <p class="para">We have many special offers especially for you.</p>
+            <button class="btn btn-primary rounded-pill">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start Footer -->
+  <!-- Start Footer -->
+  <footer class="footer mt-5 pt-5" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.svg" alt="Logo" width="150px">
+          </a>
+          <p class="p lh-lg mt-3 mb-3"> We always make our customer happy by providing as many choices as possible. </p>
+          <div class="social d-flex mb-4 mb-sm-0">
+            <i class="fab fa-facebook fs-5 rounded-circle ms-3"></i>
+            <i class="fab fa-twitter fs-5 rounded-circle ms-3"></i>
+            <i class="fab fa-instagram fs-5 rounded-circle ms-3"></i>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h4 class="h4 fw-bold">About</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2">About Us</li>
+            <li class="mb-2">Features</li>
+            <li class="mb-2">News</li>
+            <li class="mb-2">Menu</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h4 class="h4 fw-bold">Company</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2">Why Company</li>
+            <li class="mb-2">Partner With Us</li>
+            <li class="mb-2">FAQ</li>
+            <li class="mb-2">Blog</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h4 class="h4 fw-bold">Support</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2">Account</li>
+            <li class="mb-2">Support Center</li>
+            <li class="mb-2">Feedback</li>
+            <li class="mb-2">Contact Us</li>
+            <li>Accessibility</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h4 class="h4 fw-bold mb-3">Get in Touch</h4>
+          <div class="contact">
+            <p>Question or feedback? We’d love to hear from you.</p>
+            <div class="phone mb-4">
+              <i class="fas fa-phone me-2"></i><span>+01 066108567</span>
+            </div>
+            <div class="message mb-4">
+              <i class="far fa-comment-dots me-2"></i> <span>info@desinic.com</span>
+            </div>
+            <div class="place mb-4">
+              <i class="fas fa-map-marker-alt me-2"></i> <span>Zagazig, Egypt</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        <div class="container d-flex justify-content-between flex-wrap">
+          <div class="copy text-center">
+            <p>Copyright 2023. Made by <span>Ibrahim Gomaa</span></p>
+          </div>
+          <div class="terms d-flex justify-content-between">
+            <p>Terms and Condition</p>
+            <p class="ms-5">Privacy and Policy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
