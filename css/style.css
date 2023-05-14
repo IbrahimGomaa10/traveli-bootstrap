@@ -525,6 +525,9 @@ p, li {
   padding: 5px;
 }
 
+footer .contact .contact-way span {
+  font-size: .8rem;
+}
 .footer .contact span {
   font-size: .9rem;
 }
